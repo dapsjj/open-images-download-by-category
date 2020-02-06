@@ -17,3 +17,9 @@ with open(r'./OID/csv_folder_nl/train-annotations-machine-imagelabels_bk.csv','r
             alllist.append(line)
             i += 1
     writer.writerows(alllist)
+
+#You can also do it with chunksize.
+#import pandas as pd
+#chunksize = 1000
+#for chunk in pd.read_csv(r'./OID/csv_folder_nl/train-annotations-machine-imagelabels_bk.csv',chunksize=chunksize):
+#    print(chunk)
