@@ -18,8 +18,9 @@ with open(r'./OID/csv_folder_nl/train-annotations-machine-imagelabels_bk.csv','r
             i += 1
     writer.writerows(alllist)
 
-#You can also do it with chunksize.
+#You can also do it with chunksize.(你也可以用pandas的read_csv方法加参数chunksize去分块实现)
 #import pandas as pd
 #chunksize = 1000
 #for chunk in pd.read_csv(r'./OID/csv_folder_nl/train-annotations-machine-imagelabels_bk.csv',chunksize=chunksize):
-#    print(chunk)
+#    currentData=chunk.values.tolist()
+#    print(currentData)
