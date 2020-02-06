@@ -14,7 +14,7 @@ modules
  | 
 OID
  ├──csv_folder_nl
- |     └──class-descriptions.csv ()
+ |     └──class-descriptions.csv 
  |     └──train-annotations-machine-imagelabels.csv 
  | 
  └──Dataset_nl
