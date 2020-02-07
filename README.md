@@ -1,7 +1,7 @@
 # open-images-download-by-category
-You can download images of the specified categories as needed(你可以根据自己的需要下载指定类别的图像)
-
 ## [Open image official website](https://storage.googleapis.com/openimages/web/index.html)
+If you think the image file is too large, you don't want to download all kinds of pictures,you can download images of the specified categories as needed(不想下载所有类别图片的话，你可以根据自己的需要下载指定类别的图像)
+
 ## Project structure(项目结构)：            
 ```
 modules
