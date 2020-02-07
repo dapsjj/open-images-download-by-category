@@ -22,7 +22,7 @@ OID
  | 
  main.py
  | 
- put_the_specified_category_image_into_CSV.py (把指定类别的数据放到csv,用于替换train-annotations-machine-imagelabels.csv)
+ put_the_specified_category_image_into_CSV.py (如果你的内存够大，则忽略这个代码，如果内存小，那么该代码用于把指定类别的数据放到csv,新生成的csv用于替换原始的train-annotations-machine-imagelabels.csv，类别就变少了，就不会再出现内存问题了)
  ```
      
 ## Download one class in separated folder(下载一个类别)
