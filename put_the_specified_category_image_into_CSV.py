@@ -2,7 +2,7 @@ import csv
 
 title = [['ImageID','Source','LabelName','Confidence']]
 
-with open(r'./OID/csv_folder_nl/train-annotations-machine-imagelabels_bk.csv','r', encoding='utf-8') as f,open(r'./OID/csv_folder_nl/Leaf.csv','w',newline='',encoding='utf-8') as f_out:
+with open(r'./OID/csv_folder_nl/train-annotations-machine-imagelabels_bk.csv','r', encoding='utf-8') as f,open(r'./OID/csv_folder_nl/train-annotations-machine-imagelabels.csv','w',newline='',encoding='utf-8') as f_out:
     writer = csv.writer(f_out)
     alllist=[]
     i=1
