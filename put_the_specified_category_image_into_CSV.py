@@ -11,7 +11,6 @@ with open(r'./OID/csv_folder_nl/train-annotations-machine-imagelabels_bk.csv','r
         line = row.split(',')
         '''
         /m/04_bsf Wheelie
-        /m/07tdy9 Cartwheel #没有这个类别的数据
         /m/083wq Wheel
         /m/014j1m Apple
         /m/06gfj Road
