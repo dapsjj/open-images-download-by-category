@@ -12,7 +12,6 @@ modules
  └──parser.py
  └──show.py
  └──utils.py
- └──classes_custom.txt
  | 
 OID
  ├──csv_folder_nl
@@ -22,6 +21,8 @@ OID
  └──Dataset_nl
  | 
  main.py
+ | 
+ classes_custom.txt
  | 
  put_the_specified_category_image_into_CSV.py (如果你的内存够大，则忽略这个代码，如果内存小，那么该代码用于把指定类别的数据放到csv,新生成的csv用于替换原始的train-annotations-machine-imagelabels.csv，类别就变少了，就不会再出现内存问题了)
  ```
