@@ -26,9 +26,11 @@ OID
  ```
      
 ## Download one class in separated folder(下载一个类别)
-`python main.py downloader_ill --sub m --classes Football --type_csv train --limit 1000`
+`python main.py downloader_ill --sub m --classes Football --type_csv train --limit 1000`  
+`python main.py downloader_ill --sub m --classes classes_custom.txt --type_csv train --limit 1000`
 
 
 ## Download different classes in a common folder(下载多个类别到一个文件夹)
-`python main.py downloader_ill --sub m --classes Apple Banana Football --multiclasses 1 --type_csv train --limit 1000`
+`python main.py downloader_ill --sub m --classes Apple Banana Football --multiclasses 1 --type_csv train --limit 1000`  
+`python main.py downloader_ill --sub m --classes classes_custom.txt --type_csv train --limit 1000`
 
